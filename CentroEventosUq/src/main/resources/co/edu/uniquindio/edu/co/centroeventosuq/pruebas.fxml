@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.edu.co.centroeventosuq.controller.InicioController">
+   <children>
+      <Text fx:id="txtTitulo" fill="RED" layoutX="221.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Future Agency" wrappingWidth="202.48669300079337">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <TableView fx:id="tvEventos" layoutY="100.0" prefHeight="254.0" prefWidth="582.0">
+         <columns>
+            <TableColumn fx:id="ctvIdEvento" prefWidth="78.39999085664749" text="Id evento" />
+            <TableColumn fx:id="ctvNombre" prefWidth="97.5999755859375" text="nombre" />
+            <TableColumn fx:id="ctvLugar" prefWidth="68.79998779296875" text="lugar" />
+            <TableColumn fx:id="ctvFecha" prefWidth="96.00001525878906" text="fecha" />
+            <TableColumn fx:id="ctvHoraInicio" prefWidth="96.00001525878906" text="hora de inicio" />
+            <TableColumn fx:id="ctvVoletasDisponibles" prefWidth="156.80001831054688" text="boletas dispoibles" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

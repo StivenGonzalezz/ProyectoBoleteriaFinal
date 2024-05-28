@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="209.0" prefWidth="346.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.edu.co.centroeventosuq.controller.PrecioBoletasController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Precio boletas">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <GridPane prefHeight="150.0" prefWidth="346.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Cobre">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Label text="Plata" GridPane.rowIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Label text="Oro" GridPane.rowIndex="2">
+               <font>
+                  <Font size="24.0" />
+               </font></Label>
+            <Text fx:id="txtPrecioCobre" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font></Text>
+            <Text fx:id="txtPrecioPlata" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="24.0" />
+               </font></Text>
+            <Text fx:id="txtPrecioOro" layoutX="310.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="24.0" />
+               </font></Text>
+         </children>
+      </GridPane>
+   </children>
+</VBox>

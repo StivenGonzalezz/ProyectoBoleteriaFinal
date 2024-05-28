@@ -1,0 +1,53 @@
+may. 24, 2024 1:50:49 A. M. co.edu.uniquindio.edu.co.centroeventosuq.utils.ArchivoUtil guardarRegistroLog
+INFO: eliminar?,hola prueba log,2024-05-24 1:50
+may. 24, 2024 1:53:18 A. M. co.edu.uniquindio.edu.co.centroeventosuq.utils.ArchivoUtil guardarRegistroLog
+INFO: eliminar?,hola prueba log 2,2024-05-24 1:53
+may. 24, 2024 5:47:03 P. M. co.edu.uniquindio.edu.co.centroeventosuq.utils.ArchivoUtil guardarRegistroLog
+WARNING: TRANSACCION,el usuario lisamaya
+, con el correolisamaya0709@gmail.com
+reliazo una compra con un Total pagar:1221.02442.03907.2
+por comprar 3boletas
+y realizo el pago por TARJETA
+el evento con la id 7206,2024-05-24 17:47
+may. 24, 2024 5:54:11 P. M. co.edu.uniquindio.edu.co.centroeventosuq.utils.ArchivoUtil guardarRegistroLog
+WARNING: TRANSACCION,el usuario lisamaya
+, con el correolisamaya0709@gmail.com
+reliazo una compra con un Total pagar:123.0
+por comprar 1boletas
+y realizo el pago por TARJETA
+el evento con la id 123,2024-05-24 17:54
+may. 24, 2024 6:01:04 P. M. co.edu.uniquindio.edu.co.centroeventosuq.utils.ArchivoUtil guardarRegistroLog
+WARNING: TRANSACCION,el usuario usuario
+, con el correousuario123
+reliazo una compra con un Total pagar:123.0
+por comprar 1boletas
+y realizo el pago por TARJETA
+el evento con la id 123,2024-05-24 18:1
+may. 24, 2024 6:04:53 P. M. co.edu.uniquindio.edu.co.centroeventosuq.utils.ArchivoUtil guardarRegistroLog
+WARNING: TRANSACCION,el usuario usuario
+, con el correousuario123
+reliazo una compra con un Total pagar:6.76768776768E11
+por comprar 1boletas
+y realizo el pago por TARJETA
+el evento con la id 7189,2024-05-24 18:4
+may. 24, 2024 6:15:14 P. M. co.edu.uniquindio.edu.co.centroeventosuq.utils.ArchivoUtil guardarRegistroLog
+WARNING: TRANSACCION,el usuario usuario
+, con el correousuario123
+reliazo una compra con un Total pagar:123.0
+por comprar 1boletas
+y realizo el pago por EFECTIVO
+el evento con la id 123,2024-05-24 18:15
+may. 24, 2024 6:16:48 P. M. co.edu.uniquindio.edu.co.centroeventosuq.utils.ArchivoUtil guardarRegistroLog
+WARNING: TRANSACCION,el usuario usuario
+, con el correousuario123
+reliazo una compra con un Total pagar:123.0
+por comprar 1boletas
+y realizo el pago por TARJETA
+el evento con la id 123,2024-05-24 18:16
+may. 24, 2024 6:25:58 P. M. co.edu.uniquindio.edu.co.centroeventosuq.utils.ArchivoUtil guardarRegistroLog
+WARNING: TRANSACCION,el usuario usuario
+, con el correousuario123
+reliazo una compra con un Total pagar:123.0
+por comprar 1boletas
+y realizo el pago por EFECTIVO
+el evento con la id 123,2024-05-24 18:25

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="524.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.edu.co.centroeventosuq.controller.ComprarBoletasController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="600.0" spacing="20.0">
+         <children>
+            <Text fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="Realizar compra">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Text>
+            <TableView fx:id="tbResidencias" prefHeight="153.0" prefWidth="487.0">
+               <columns>
+                  <TableColumn fx:id="ctbPrecioEntrada" prefWidth="143.20001828670502" text="Precio de entrada" />
+                  <TableColumn fx:id="ctbCapacidadMax" minWidth="0.0" prefWidth="134.39996337890625" text="Puestos disponibles" />
+                  <TableColumn fx:id="ctbTipoLocacion" prefWidth="179.99993896484375" text="Tipo de localizacion" />
+               </columns>
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" />
+               </VBox.margin>
+            </TableView>
+            <Text fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" text="Lista de boletas">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font></Text>
+            <TableView fx:id="tvboletas" prefHeight="198.0" prefWidth="560.0">
+              <columns>
+                <TableColumn fx:id="ctvIdBoleta" prefWidth="75.0" text="IdBoleta" />
+                <TableColumn fx:id="ctvIdEvento" prefWidth="68.79998779296875" text="idEvento" />
+                  <TableColumn fx:id="ctvCategoriaBoleta" prefWidth="101.60003662109375" text="Categoria Boleta" />
+                  <TableColumn fx:id="ctvIdNombreComprador" prefWidth="135.20001220703125" text="Nombre  Comprador" />
+                  <TableColumn fx:id="ctvCedulaComprador" prefWidth="175.99993896484375" text="Cedula Comprador" />
+              </columns>
+            </TableView>
+            <GridPane>
+              <columnConstraints>
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints />
+              </rowConstraints>
+               <children>
+                  <Text fx:id="txtTotalPagar" strokeType="OUTSIDE" strokeWidth="0.0" text="Total pagar:" />
+                  <ComboBox fx:id="cbMetodoPago" prefWidth="150.0" promptText="metodo de pago" GridPane.columnIndex="1" />
+               </children>
+            </GridPane>
+            <ButtonBar prefHeight="26.0" prefWidth="176.0">
+              <buttons>
+                  <Button mnemonicParsing="false" onAction="#comprar" text="Agregar" />
+                <Button mnemonicParsing="false" onAction="#terminarCompra" text="pagar" />
+              </buttons>
+               <VBox.margin>
+                  <Insets right="200.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </ButtonBar>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

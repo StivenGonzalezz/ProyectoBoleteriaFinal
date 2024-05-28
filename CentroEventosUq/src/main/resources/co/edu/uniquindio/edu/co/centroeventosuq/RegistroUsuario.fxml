@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.edu.co.centroeventosuq.controller.RegistroUsuarioController">
+   <children>
+      <Pane prefHeight="243.0" prefWidth="415.0">
+         <children>
+            <GridPane hgap="10.0" layoutX="40.0" layoutY="66.0" prefHeight="177.0" prefWidth="336.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="218.79998779296875" minWidth="10.0" prefWidth="50.99995880126953" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="379.6000442504883" minWidth="10.0" prefWidth="274.20004119873045" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre:" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Direccion:" GridPane.rowIndex="1" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Correo:" GridPane.rowIndex="2" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña:" GridPane.rowIndex="3" />
+                  <TextField fx:id="textFNombre" prefHeight="0.0" prefWidth="240.0" GridPane.columnIndex="1" />
+                  <TextField fx:id="textFCorreo" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="textFDireccion" prefHeight="26.0" prefWidth="299.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField fx:id="textFContrasena" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+               </children>
+            </GridPane>
+            <Text fill="RED" layoutX="123.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REGISTRO USUARIO">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font></Text>
+         </children>
+      </Pane>
+      <Button layoutX="315.0" layoutY="243.0" mnemonicParsing="false" onAction="#registrar" text="Registrar" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.8" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="co.edu.uniquindio.edu.co.centroeventosuq.model.Boleta">
+    <void property="categoria">
+     <string>COBRE</string>
+    </void>
+    <void property="evento">
+     <object class="co.edu.uniquindio.edu.co.centroeventosuq.model.Evento" id="Evento0">
+      <void property="fecha">
+       <string>2024-05-24</string>
+      </void>
+      <void property="horaInicioEvento">
+       <string>11:00</string>
+      </void>
+      <void property="idEvento">
+       <string>123</string>
+      </void>
+      <void property="localizaciones">
+       <void method="add">
+        <object class="co.edu.uniquindio.edu.co.centroeventosuq.model.Locacion">
+         <void property="categoriaLocalizacion">
+          <object class="java.lang.Enum" method="valueOf">
+           <class>co.edu.uniquindio.edu.co.centroeventosuq.model.enums.CategoriaLocalizacion</class>
+           <string>COBRE</string>
+          </object>
+         </void>
+         <void property="numeroAsientos">
+          <int>123</int>
+         </void>
+         <void property="numeroVoletasVendidas">
+          <int>12</int>
+         </void>
+         <void property="precio">
+          <double>123.0</double>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="co.edu.uniquindio.edu.co.centroeventosuq.model.Locacion">
+         <void property="categoriaLocalizacion">
+          <object class="java.lang.Enum" method="valueOf">
+           <class>co.edu.uniquindio.edu.co.centroeventosuq.model.enums.CategoriaLocalizacion</class>
+           <string>PLATA</string>
+          </object>
+         </void>
+         <void property="numeroAsientos">
+          <int>123</int>
+         </void>
+         <void property="numeroVoletasVendidas">
+          <int>2</int>
+         </void>
+         <void property="precio">
+          <double>1233.0</double>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="co.edu.uniquindio.edu.co.centroeventosuq.model.Locacion">
+         <void property="categoriaLocalizacion">
+          <object class="java.lang.Enum" method="valueOf">
+           <class>co.edu.uniquindio.edu.co.centroeventosuq.model.enums.CategoriaLocalizacion</class>
+           <string>ORO</string>
+          </object>
+         </void>
+         <void property="numeroAsientos">
+          <int>12</int>
+         </void>
+         <void property="numeroVoletasVendidas">
+          <int>2</int>
+         </void>
+         <void property="precio">
+          <double>1234.0</double>
+         </void>
+        </object>
+       </void>
+      </void>
+      <void property="lugar">
+       <string>lugar</string>
+      </void>
+      <void property="nombre">
+       <string>mi primer evento</string>
+      </void>
+      <void property="nombreArtistas">
+       <void method="add">
+        <string>JUAN PEREZ</string>
+       </void>
+      </void>
+      <void property="taquillaAbierta">
+       <boolean>true</boolean>
+      </void>
+     </object>
+    </void>
+    <void property="idBoleta">
+     <string>7257</string>
+    </void>
+    <void property="idComprador">
+     <string>112</string>
+    </void>
+    <void property="nombreComprador">
+     <string>122</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
